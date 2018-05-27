@@ -46,7 +46,7 @@ hr{
 .sidebar-container .short-about img {
     width: 100%;
     display: block;
-    border-radius: 50%;
+    border-radius: 0%;
     margin-bottom: 20px;
     box-shadow: 0 0 2px black;
 }
