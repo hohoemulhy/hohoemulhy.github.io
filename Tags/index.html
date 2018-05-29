@@ -3,7 +3,7 @@
 <head >
   <meta charset="utf-8">
   
-  <title>tags | hohoemu | hohoemu</title>
+  <title>Tags | hohoemu | hohoemu</title>
 
   
   <meta name="author" content="hohoemu Liu">
@@ -19,7 +19,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <meta property="og:title" content="tags"/>
+  <meta property="og:title" content="Tags"/>
 
   <meta property="og:site_name" content="hohoemu"/>
 
@@ -87,75 +87,142 @@
             <main class="site-main posts-loop col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container" style="position: inherit;">
-            <article>
-  <h2 class="article-title ">tags</h2>
-  <!--
-  <a href="/tags/interview/" style="font-size: 12px; color: #ccc">interview</a> <a href="/tags/linux/" style="font-size: 12px; color: #ccc">linux</a>
-  -->
-  <div class="tags-total">
-    <em style='color: red;'>2</em>  tags in total
-  </div>
-  <div class="tags-cloud">
+            
+
+
+    <article class="article-container ">
+
+  
     
-      <span class="post-tags">
-        <i class="icon-tags"></i>
-          <a href="/tags/interview/" title="interview" rel="1">interview</a>
-      </span>
+    <h3 class="article-title"><span>Tags</span></h3>
     
-      <span class="post-tags">
-        <i class="icon-tags"></i>
-          <a href="/tags/linux/" title="linux" rel="1">linux</a>
-      </span>
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/Tags/index.html" rel="bookmark">
+        <time class="entry-date published" datetime="2018-05-29T02:05:23.000Z">
+          2018-05-29
+        </time>
+      </a>
+    </span>
+    <br />
+    
+    <span id="busuanzi_container_page_pv">
+      本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+    </span>
     
   </div>
 
-  <div class="archive">
-    
-    <div class="archive-tags">
-      <span class="post-tags">
-        <i class="icon-tags"></i>
-          <a href="/tags/interview/" title="interview" rel="1">interview</a>
-      </span>
+
+  
+
+  <div class="article-content">
+    <div class="entry">
       
-        <div class="post archive">
-          <div class="archive-post">
-            <time datetime="2018-05-28T10:19:09.000Z">
-              <a href="/2018/05/28/interview/">2018-05-28</a>
-            </time>
-            
-              <h3 class="archive-title"><a href="/2018/05/28/interview/"><span>interview</span></a></h3>
-            
-          </div>
-        </div>
+          
       
     </div>
     
-    <div class="archive-tags">
-      <span class="post-tags">
-        <i class="icon-tags"></i>
-          <a href="/tags/linux/" title="linux" rel="1">linux</a>
-      </span>
-      
-        <div class="post archive">
-          <div class="archive-post">
-            <time datetime="2018-05-28T10:19:09.000Z">
-              <a href="/2018/05/28/interview/">2018-05-28</a>
-            </time>
-            
-              <h3 class="archive-title"><a href="/2018/05/28/interview/"><span>interview</span></a></h3>
-            
-          </div>
-        </div>
-      
-    </div>
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
     
 
-    <nav class="pagination">
-  
-  
-</nav>
+    
+
+    </div>
+
+    
   </div>
+  
+    
+    
+  
 </article>
+   
+    <div id="toc" class="toc-article ">
+    <div class="toc-title">目录</div>
+    
+</div>
+
+
+  
+
+	<!-- async load  -->
+	<script>
+			function async(u, c) {
+				var d = document, t = 'script',
+						o = d.createElement(t),
+						s = d.getElementsByTagName(t)[0];
+				o.src = u;
+				if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+				s.parentNode.insertBefore(o, s);
+			}
+	</script>
+	<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+	<script>
+			async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+					anchors.options = {
+						visible: 'hover',
+						placement: 'left',
+						// icon: '#'
+					};
+					anchors.add().remove('.article-title').remove('.subheading').remove('.sidebar-container h5');
+			})
+	</script>
+	<style>
+			/* place left on bigger screen */
+			@media all and (min-width: 800px) {
+					.anchorjs-link{
+							position: absolute;
+							left: -0.75em;
+							font-size: 1.1em;
+							margin-top : -0.1em;
+					}
+			}
+	</style>
+
+
+
+
+<!-- UY BEGIN -->
+	<div id="gitment-container"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script src="/js/web-pinyin.js"></script>
+	<script>
+		function toUnicode(s){ 
+			return s.replace(/([\u4E00-\u9FA5]|[\uFE30-\uFFA0])/g,function(){
+			return "\\u" + RegExp["$1"].charCodeAt(0).toString(16);
+			});
+		}
+		var title = 'Tags'
+		var GitHub_id = 'Boseny'
+		var client_id = 'f40c67d0359a2646d2b1'
+		var client_secret = '1cbedbd1a1a2e4b42901aee3d7afe1856c1b7e2d'
+		var repo = 'boseny.me'
+		var gitment = new Gitment({
+		// id: '页面 ID', // 可选。默认为 location.href
+		// id:"11" ,
+		id: title,
+		title: title,
+		owner: GitHub_id,//'你的 GitHub ID',
+		repo: repo,//'存储评论的 repo',
+		oauth: {
+			client_id: client_id,//'你的 client ID',
+			client_secret: client_secret,//'你的 client secret',
+		},
+		})
+		gitment.render('gitment-container')
+	</script>
+<!-- UY END -->
+
+
+
+
 
             </main>
           </div>
